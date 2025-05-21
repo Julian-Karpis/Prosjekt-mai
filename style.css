@@ -26,32 +26,45 @@
   input, button, textarea, select {
     font: inherit;
   }
-  
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  
   #root, #__next {
     isolation: isolate;
   }
 
 main {
     display: flex;
+    width: 100%;
     height: 100vh;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 
-/* Slider */
-.slidecontainer {
-    width: 100%;
+#hero {
+    width: 1000px;
+    text-align: center;
+    justify-items: center;
+   
 }
+
+h1 {
+    width: 100%;
+    margin:auto;
+}
+#guessButton {
+    width: 100%;
+    background-color:#DB5049 ;
+    color: white;
+}
+
+/* Slider */
+
+
 .slider {
    color: #DB5049;
-    width: 100%;
+    width: 750px;
     height: 15px;
     border-radius: 5px;  
-    background: #d3d3d3;
+    background: transparent;
     outline: none;
     opacity: 0.7;
    
@@ -75,7 +88,13 @@ main {
     background: #04AA6D;
     cursor: pointer;
   }
+  .slider::-webkit-slider-runnable-track {
 
+    background: #d3d3d3;
+   
+  }
+  
+  .slid
 #myRange {
     cursor: pointer;
 }

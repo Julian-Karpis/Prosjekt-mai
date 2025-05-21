@@ -12,9 +12,34 @@ slider.oninput = function() {
 
 //
 
-function showCar() {
-    const car = cars
+fetch('f1cars.json')
+    .then((response) => response.json() )
+    .then(data => {
+        carsData = data
+        console.log("show--")
+        showCar(data)
+    })
+
+
+
+function showCar(f1cars) {
+    const container = document.getElementById('img-container')
+    const randomIndex = Math.floor(Math.random() * f1cars.length)
+    const randomCar = f1cars[randomIndex]
+
+  
+    const img = document.createElement('img')
+    img.src = randomCar.car
+    img.style.borderTopLeftRadius = "25px"
+    img.style.borderTopRightRadius = "25px"
+   
+
+    container.appendChild(img)
+   
 }
+
+
+
 
 
 document.getElementById('guessButton').addEventListener('click', () =>{

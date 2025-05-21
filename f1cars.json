@@ -1,8 +1,12 @@
 [
     {
-        "team":"ferrari", 
+        "team": "ferrari",
         "year": 2024,
-        "img": 
-    
+        "car": "https://upload.wikimedia.org/wikipedia/commons/9/99/Carlos_Sainz_Chinese_GP_2024.jpg"
+    },
+    {
+        "team": "ferrari",
+        "year": 2023,
+        "car": "https://www.formula1.com/fom-website/2023/Miscellaneous/ferrari-sf-24-5.png"
     }
 ]
