@@ -51,6 +51,7 @@ h1 {
     margin:auto;
 }
 #guessButton {
+    cursor: pointer;
     width: 100%;
     background-color:#DB5049 ;
     color: white;
@@ -99,7 +100,3 @@ h1 {
     cursor: pointer;
 }
 
-
-.slider {
-    
-}

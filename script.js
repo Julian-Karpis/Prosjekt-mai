@@ -8,9 +8,7 @@ slider.oninput = function() {
     output.innerHTML = this.value
 }
 
-
-
-//
+//fetch
 
 fetch('f1cars.json')
     .then((response) => response.json() )
@@ -20,26 +18,20 @@ fetch('f1cars.json')
         showCar(data)
     })
 
-
-
+//vise bilde funksjon
 function showCar(f1cars) {
     const container = document.getElementById('img-container')
     const randomIndex = Math.floor(Math.random() * f1cars.length)
     const randomCar = f1cars[randomIndex]
 
-  
     const img = document.createElement('img')
     img.src = randomCar.car
     img.style.borderTopLeftRadius = "25px"
     img.style.borderTopRightRadius = "25px"
-   
 
     container.appendChild(img)
    
 }
-
-
-
 
 
 document.getElementById('guessButton').addEventListener('click', () =>{
