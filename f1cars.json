@@ -1,13 +1,47 @@
 [
-       
     {
         "team": "ferrari",
-        "year": 2024,
-        "car": "https://upload.wikimedia.org/wikipedia/commons/9/99/Carlos_Sainz_Chinese_GP_2024.jpg"
+        "year": 1956,
+        "car": "https://cdn.ferrari.com/cms/network/media/img/resize/5e317c99d0b5c42071b59c5b-scuderia-ferrari-1954-gonzales-share?width=1080"
+    },
+    {
+        "team": "ferrari",
+        "year": 1963,
+        "car": "https://i.pinimg.com/736x/2f/56/e7/2f56e71f9f1dd7c0f510ebadc2f1d2c8.jpg"
+    },
+    {
+        "team": "ferrari",
+        "year": 1977,
+        "car": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/LaudaNiki19760731Ferrari312T2.jpg/640px-LaudaNiki19760731Ferrari312T2.jpg"
+    },
+    {
+        "team": "ferrari",
+        "year": 1984,
+        "car": "https://i.ytimg.com/vi/xArHl7SYY3A/maxresdefault.jpg"
+    },
+    {
+        "team": "ferrari",
+        "year": 1992,
+        "car": "https://cdn.ferrari.com/cms/network/media/img/resize/5e33f900d0b5c42071b6382a-ferrari-scuderia-1992-capelli-f92a-share?width=1080"
+    },
+    {
+        "team": "ferrari",
+        "year": 2007,
+        "car": "https://upload.wikimedia.org/wikipedia/commons/d/de/Kimi_Raikkonen_2007_Malaysia.jpg"
+    },
+    {
+        "team": "ferrari",
+        "year": 2015,
+        "car": "https://upload.wikimedia.org/wikipedia/commons/7/78/Sebastian_Vettel_2015_Malaysia_FP2_3.jpg"
     },
     {
         "team": "ferrari",
         "year": 2023,
-        "car": "https://www.formula1.com/fom-website/2023/Miscellaneous/ferrari-sf-24-5.png"
+        "car": "https://upload.wikimedia.org/wikipedia/commons/9/9f/FIA_F1_Austria_2023_Nr._55_%281%29.jpg"
+    },
+    {
+        "team": "ferrari",
+        "year": 2024,
+        "car": "https://upload.wikimedia.org/wikipedia/commons/9/99/Carlos_Sainz_Chinese_GP_2024.jpg"
     }
 ]
