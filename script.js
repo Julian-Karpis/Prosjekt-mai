@@ -4,7 +4,6 @@ let output = document.getElementById("demo")
 output.innerHTML = slider.value 
 
 slider.oninput = function() {
-    console.log("vbuobe")
     output.innerHTML = this.value
 }
 
@@ -21,8 +20,12 @@ fetch('f1cars.json')
 //vise bilde funksjon
 function showCar(f1cars) {
     const container = document.getElementById('img-container')
+
     const randomIndex = Math.floor(Math.random() * f1cars.length)
+    
+
     const randomCar = f1cars[randomIndex]
+    currentCar = randomCar
 
     const img = document.createElement('img')
     img.src = randomCar.car
@@ -30,20 +33,29 @@ function showCar(f1cars) {
     img.style.borderTopRightRadius = "25px"
 
     container.appendChild(img)
-   
+
 }
 
 
-document.getElementById('guessButton').addEventListener('click', () =>{
-    const carInput = document.getElementById('carGuess').value.trim().toLowerCase()
+document.getElementById('guessButton').addEventListener('click', click)
+
+function click() {
     const yearInput = Number(document.getElementById('myRange').value.trim())
+    
+    console.log(yearInput)
+    const correctYear = currentCar.year
+    console.log(correctYear)    
+
+
+    if (yearInput == correctYear) {
+         console.log("right")
+    } else {
+        console.log("wrong")
+    }
+}
 
     
-    const currentCar = carsData
+
+  
 
 
-    if (carInput === correctCar && yearInput === correctYear) {
-        document.getElementById('result').textContent = "correct"
-    }
-})
-const guessTeam = teamInput
