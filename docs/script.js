@@ -31,8 +31,6 @@ function showCar(f1cars) {
     img.src = randomCar.car
     img.style.borderTopLeftRadius = "25px"
     img.style.borderTopRightRadius = "25px"
-    img.style.width = "1000px"
-    img.style.height = "500px"
     container.appendChild(img)
 
 }
