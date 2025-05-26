@@ -31,7 +31,8 @@ function showCar(f1cars) {
     img.src = randomCar.car
     img.style.borderTopLeftRadius = "25px"
     img.style.borderTopRightRadius = "25px"
-
+    img.style.width = "1000px"
+    img.style.height = "500px"
     container.appendChild(img)
 
 }
@@ -41,7 +42,7 @@ document.getElementById('guessButton').addEventListener('click', click)
 
 function click() {
     const yearInput = Number(document.getElementById('myRange').value.trim())
-    
+
     console.log(yearInput)
     const correctYear = currentCar.year
     console.log(correctYear)    

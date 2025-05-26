@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .poppins-bold {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -11,15 +12,18 @@
   display: flex;
   flex-direction: column;
 }
+
 .logo {
   width: 412px;
 }
+
 a {
   color: black;
   font-size: 4.3vh;
   margin-top: -1vh;
   text-decoration: none;
 }
+
 a:hover {
   color: #DB5049;
 }
@@ -28,122 +32,142 @@ a:hover {
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
-  
-    font-family: 'Anton', sans-serif;
-    color: #DB5049; /* vibrant red */
-    font-size: 5rem;
-    display: inline-block;
-    transform: scaleX(1.4); /* Stretch text horizontally */
-    transform-origin: left;
-    letter-spacing: -0.05em; /* Slightly tighten spacing for balance */
-  
-  
+
+  font-family: 'Anton', sans-serif;
+  color: #DB5049;
+  /* vibrant red */
+  font-size: 5rem;
+  display: inline-block;
+  transform: scaleX(1.4);
+  /* Stretch text horizontally */
+  transform-origin: left;
+  letter-spacing: -0.05em;
+  /* Slightly tighten spacing for balance */
+
+
 }
 
 /* Reset */
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-  }
-  
-  body {
-    background-color: #fffbee;
-    min-height: 100vh;
-    font-family: system-ui, sans-serif;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
-  
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  
-  input, button, textarea, select {
-    font: inherit;
-  }
-  #root, #__next {
-    isolation: isolate;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background-color: #fffbee;
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
 
 main {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero {
-    width: 1000px;
-    text-align: center;
-    justify-items: center;
-   
+  width: 1000px;
+  text-align: center;
+  justify-items: center;
+
 }
 
 h1 {
-    width: 100%;
-    margin:auto;
+  font-size: 10vh;
+  color: #DB5049;
+  width: 100%;
+  margin: auto;
 }
+
 h2 {
   width: 43vw;
 }
+
 #guessButton {
-    cursor: pointer;
-    width: 100%;
-    background-color:#DB5049 ;
-    color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #DB5049;
+  color: white;
 }
 
 /* Slider */
 
 
 .slider {
-   color: #DB5049;
-    width: 750px;
-    height: 15px;
-    border-radius: 5px;  
-    background: transparent;
-    outline: none;
-    opacity: 0.7;
-   
+  color: #DB5049;
+  width: 750px;
+  height: 15px;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  opacity: 0.7;
+
 }
+
 #demo {
-    background-color: #DB5049;
-    text-align: center;
-    padding: 8px;
-    border-radius: 8px 8px 0px 0px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 900;
-    margin-top: 10px;
+  background-color: #DB5049;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px 8px 0px 0px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 10px;
 }
+
 .slider::-webkit-slider-thumb {
-    color:#DB5049 ;
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%; 
-    background: #04AA6D;
-    cursor: pointer;
-  }
-  .slider::-webkit-slider-runnable-track {
-
-    background: #d3d3d3;
-   
-  }
-  
-  .slid
-#myRange {
-    cursor: pointer;
+  color: #DB5049;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
 }
 
+.slider::-webkit-slider-runnable-track {
+
+  background: #d3d3d3;
+
+}
+
+.slid #myRange {
+  cursor: pointer;
+}
