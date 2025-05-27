@@ -33,6 +33,7 @@ function startRound() {
     img.style.borderTopLeftRadius = "25px"
     img.style.borderTopRightRadius = "25px"
     img.style.height = "auto"
+    img.style.minwidth = "60%"
     img.style.maxWidth = "80%"
     img.style.objectFit = "contain"
     container.appendChild(img)
