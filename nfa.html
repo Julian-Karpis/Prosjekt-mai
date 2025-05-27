@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FormulaGuessr</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        
+        <div id="progressBar">
+            <div id="roundBox">
+                <p class="progressBarText1">Round</p>
+                <p class="progressBarText2">1/5</p>
+            </div>
+            <div id="scoreBox"> 
+                <p class="progressBarText1">Score</p>
+                <p class="progressBarText2" id="score">0</p>
+            </div>
+          
+        </div>
+       
     </header>
     <main>
         <div id="hero">
@@ -22,9 +35,10 @@
                     <p id="guessButton">Make guess</p>
                 </div>
             </form>
-        </div>  
+        </div>
     </main>
-    
-    <script src="script.js" ></script>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

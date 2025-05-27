@@ -41,10 +41,19 @@ function startRound() {
 
 }
 
+let totalScore = 0
+let currentRound = 1
 
 document.getElementById('guessButton').addEventListener('click', click)
 
 function click() {
+    
+    if (currentRound >= 5) {
+        endGame()
+        return
+    }
+
+   
     const yearInput = Number(document.getElementById('myRange').value.trim())
 
     console.log(yearInput)
@@ -55,18 +64,26 @@ function click() {
     console.log(correctYear)    
 
     const score = Math.round(maxPoints * Math.exp(-difficulty * differance))
+    totalScore += score
 
     console.log(score)
-   
+    const scoreEl = document.getElementById('score')
+    scoreEl.innerHTML = totalScore
+
+    currentRound++
+    document.querySelector('.progressBarText2').textContent = `${currentRound}/5`
+  
+
+
 
     startRound()
 }
 
 
 
+//endgame
 
-    
-
-  
-
+function endGame() {
+console.log('hallo')
+}
 

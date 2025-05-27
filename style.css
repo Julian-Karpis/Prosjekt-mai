@@ -176,3 +176,41 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
+/* progressbar */
+#progressBar {
+  display: flex;
+  background-color:#DB5049;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: fit-content;
+    margin-right: -2vw;
+    border-radius: 3px;
+}
+
+
+#roundBox {
+  float: left;
+  padding-left:1vw ;
+}
+
+#scoreBox {
+  display: inline-block;
+    padding-left: 20px;
+    padding-right: 3vw;
+}
+
+.progressBarText1 {
+  color: #CDCDCD;
+    font-size: 2vh;
+    padding-left: 0.6vw;
+    padding-top: 5px;
+    transform: skew(-14deg);
+}
+
+.progressBarText2 {
+  color: #fff;
+    font-size: 5vh;
+    
+}
