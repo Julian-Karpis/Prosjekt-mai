@@ -163,8 +163,8 @@ h2 {
 }
 
 .slider::-webkit-slider-runnable-track {
-
   background: #d3d3d3;
+  border-radius: 8px;
 
 }
 
@@ -246,3 +246,4 @@ h2 {
   font-size: 2vh;
   display: inline;
 }
+

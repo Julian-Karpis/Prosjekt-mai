@@ -49,8 +49,6 @@ document.getElementById('guessButton').addEventListener('click', click)
 function click() {
 
    
-
-   
     const yearInput = Number(document.getElementById('myRange').value.trim())
 
     console.log(yearInput)
@@ -67,11 +65,15 @@ function click() {
     const scoreEl = document.getElementById('score')
     scoreEl.innerHTML = totalScore
 
+   
+
+
     currentRound++
     document.querySelector('.progressBarText2').textContent = `${currentRound}/5`
   
 
     if (currentRound >= 5) {
+
         endGame()
         return
     }

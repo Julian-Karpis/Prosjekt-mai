@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>FormulaGuessr - Final Score</title>
 </head>
 <body>
     <div id="flexFinalScore">
         <div id="centreText">
             <div id="topText">
-                <div id="totalText">21424</div>
+                <div id="totalText"></div>
                 <p id="outOfText">/25000</p>
             </div>
         </div>  
     </div>
-    
+    <script>
+        const finalScore = localStorage.getItem("finalScore")
+
+        if (finalScore !== null) {
+            document.getElementById("totalText").innerHTML = finalScore
+        }
+    </script>
 </body>
 </html>
