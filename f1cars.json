@@ -51,13 +51,38 @@
     },
     {
         "team": "haas",
+        "year": 2018,
+        "car": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/FIA_F1_Austria_2018_Nr._8_Grosjean.jpg/1200px-FIA_F1_Austria_2018_Nr._8_Grosjean.jpg"
+    },
+    {
+        "team": "haas",
         "year": 2019,
         "car": "https://upload.wikimedia.org/wikipedia/commons/d/d6/FIA_F1_Austria_2019_Nr._20_Magnussen_1.jpg"
     },
     {
         "team": "haas",
+        "year": 2020,
+        "car": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Romain_Grosjean-Haas_VF-20_%281%29.jpg"
+    },
+    {
+        "team": "haas",
         "year": 2021,
         "car": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/FIA_F1_Austria_2021_Nr._47_Schumacher.jpg/1200px-FIA_F1_Austria_2021_Nr._47_Schumacher.jpg"
+    },
+    {
+        "team": "haas",
+        "year": 2022,
+        "car": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUV_LNpRddmONxIWvVYPQvQoEp11oP7caUDQ&s"
+    },
+    {
+        "team": "haas",
+        "year": 2023,
+        "car": "https://upload.wikimedia.org/wikipedia/commons/4/4d/FIA_F1_Austria_2023_Nr._27_%282%29.jpg"
+    },
+    {
+        "team": "haas",
+        "year": 2024,
+        "car": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ftZQhSLMqc4CekZ2_somQKQ8fGE9mbNsIA&s"
     },
     {
         "team": "haas",

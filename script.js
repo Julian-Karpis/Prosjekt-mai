@@ -56,7 +56,7 @@ function click() {
     const correctYear = currentCar.year
     const maxPoints = 5000
     const differance = Math.abs(yearInput - correctYear)
-    const difficulty = 0.2
+    const difficulty = 0.15
     console.log(correctYear)    
 
     const score = Math.round(maxPoints * Math.exp(-difficulty * differance))
@@ -73,7 +73,7 @@ function click() {
     document.querySelector('.progressBarText2').textContent = `${currentRound}/5`
   
 
-    if (currentRound >= 5) {
+    if (currentRound >= 6) {
 
         endGame()
         return
