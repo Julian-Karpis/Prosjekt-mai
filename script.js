@@ -37,9 +37,6 @@ function startRound() {
     img.style.maxWidth = "80%"
     img.style.objectFit = "contain"
     container.appendChild(img)
-
-
-
 }
 
 let totalScore = 0
@@ -66,9 +63,6 @@ function click() {
     const scoreEl = document.getElementById('score')
     scoreEl.innerHTML = totalScore
 
-   
-
-
     currentRound++
     document.querySelector('.progressBarText2').textContent = `${currentRound}/5`
   
@@ -82,12 +76,10 @@ function click() {
     startRound()
 }
 
-
-
 //endgame
-
 function endGame() {
     localStorage.setItem("finalScore", totalScore)
     window.location.href ="end.html"
 }
+
 
